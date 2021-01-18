@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    font-family: cursive;
+    font-family: fantasy;
     font-size: 100%;
     padding: 0%;
     margin-top: 0;
@@ -46,6 +46,10 @@ header #menu ul li{
 header #menu ul li a{
     text-decoration: none;
     color: #bad7e9;
+}
+
+header #menu ul li #facebook{
+    
 }
 
 header #menu ul li a:hover{
