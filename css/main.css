@@ -48,10 +48,6 @@ header #menu ul li a{
     color: #bad7e9;
 }
 
-header #menu ul li #facebook:hover{
-    background-color: #bad7e9;
-}
-
 header #menu ul li a:hover{
     color: #fcfffd;
     text-decoration: underline;
