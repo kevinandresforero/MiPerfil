@@ -15,6 +15,39 @@ body{
     margin-top: 0;
 }
 
+header main .text{
+  font-size: 150%;
+  font-size-adjust: 0%;
+}
+
+header main .text h1{
+  font-size: 120% 120%;
+  padding: 0% 10%;
+}
+
+/*  */
+#main_cointainer header main{
+  background-color: #bad7e9;
+  margin: 1% 1%;
+  margin-bottom: 0%;
+  padding-bottom: 5%;
+}
+
+#main_cointainer header main .menu{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+#main_cointainer header main image{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#main_cointainer header #menu{
+    padding: 0% 0%;
+}
+
 header{
     background-image: url(../recusros/fondo1.png);
     background-repeat: no-repeat;
@@ -24,21 +57,34 @@ header{
     margin-bottom: 0%;
 }
 
-#main_cointainer header #menu{
-    padding: 0% 0%;
+header main .text{
+  text-align-last: center;
+  padding: 5% 5%;
+}
+
+header #main_cointainer header main #image {
+  size: 100% ;
+  color:#054584;
 }
 
 header #menu{
     background-color: #054584;
+    text-align-last: center;
+    margin: 1% 1%;
+    margin-top: 0%;
+    padding: 50%;
+    padding: 50% 40% ;
 }
 
 header #menu ul{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 1% 5%;
 }
+
 
 header #menu ul li{
     display: inline-block;
+    margin-top: 0%;
     padding: 1% 1%;
     vertical-align: middle;
 }
@@ -58,33 +104,31 @@ header #menu ul #logo{
     margin-left: 100px ;
 }
 
+.perfil {
+  margin: 0% 1%;
+  background-image: url(../recusros/IMG-20190530-WA0007.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 30%;
+  color:#054584;
+  vertical-align: middle;
+  horizontal-align: middle;
+
+
+}
+
 p button{
-    color: #054584;
-    background-color: #bad7e9;
+    color: #bad7e9;
+    background-color: #054584;
     font-family: cursive;
+    font-size: 100%;
     padding: 5% 25% ;
-    margin: 5% 15%;
+    margin: 0% 15%;
+    margin-top: 5%
 }
 
 p button:hover{
     color: #054584;
     background-color: #f96900;
     text-decoration: underline;
-}
-
-/*  */
-#main_cointainer header main{
-    margin: 1% 1%;
-    padding: 1%;
-}
-
-#main_cointainer header main div{
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 5%;    
-}
-
-#image{
-    margin: 50px;
-    padding: 50px;
 }
