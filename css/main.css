@@ -1,107 +1,102 @@
-*{
-    padding: 0;
-    margin: 0;
-    border: solid 0px #054584 ;
+/*
+  Azul oscuro:  #054584
+  Azul claro:  #bad7e9
+*/
+* {
+  padding: 0;
+  margin: 0;
+  border: solid 0px #054584;
 }
 
-body{
-    background-image: url(../recusros/IMG_20170716_104919_985.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    font-family: fantasy;
-    font-size: 100%;
-    padding: 0%;
-    margin-top: 0;
+body {
+  background-image: url(../k/IMG_20170716_104919_985.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: fantasy;
+  font-size: 100%;
+  padding: 0%;
+  margin-top: 0;
 }
 
-header main .text{
+header main . {
   font-size: 150%;
+  text-align-last: center;
   font-size-adjust: 0%;
 }
 
-header main .text h1{
-  font-size: 120% 120%;
+header main .text h1 {
+  font-family: fantasy;
+  font-size: 110% 110%;
   padding: 0% 10%;
+  text-align-last: center;
 }
 
-/*  */
-#main_cointainer header main{
+#main_cointainer header main {
   background-color: #bad7e9;
   margin: 1% 1%;
   margin-bottom: 0%;
   padding-bottom: 5%;
 }
 
-#main_cointainer header main .menu{
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 5%;
+#main_cointainer header main .menu {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5%;
 }
 
-#main_cointainer header main image{
+#main_cointainer header main image {
   display: inline-block;
   vertical-align: middle;
 }
 
-#main_cointainer header #menu{
-    padding: 0% 0%;
+#main_cointainer header #menu {
+  padding: 0% 0%;
 }
 
-header{
-    background-image: url(../recusros/fondo1.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 100%;
-    color:#054584;
-    margin-bottom: 0%;
+header {
+  background-image: url(../recusros/fondo1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  color: #054584;
+  margin-bottom: 0%;
 }
 
-header main .text{
+header main .text {
   text-align-last: center;
   padding: 5% 5%;
 }
 
 header #main_cointainer header main #image {
-  size: 100% ;
-  color:#054584;
+  size: 100%;
+  color: #054584;
 }
 
-header #menu{
-    background-color: #054584;
-    text-align-last: center;
-    margin: 1% 1%;
-    margin-top: 0%;
-    padding: 50%;
-    padding: 50% 40% ;
+header #menu {
+  background-color: #054584;
+  text-align-last: center;
+  margin: 1% 1%;
+  margin-top: 0%;
+  padding: 50%;
+  padding: 50% 40%;
 }
 
-header #menu ul{
-    margin: 0%;
-    padding: 1% 5%;
+header #menu ul {
+  margin: 0% 0%;
+  padding: 1% 5%;
 }
 
-
-header #menu ul li{
-    display: inline-block;
-    margin-top: 0%;
-    padding: 1% 1%;
-    vertical-align: middle;
+header #menu ul li {
+  display: inline-block;
+  margin-top: 0%;
+  padding: 1% 1%;
+  vertical-align: middle;
 }
 
-header #menu ul li a{
-    text-decoration: none;
-    color: #bad7e9;
-}
-
-header #menu ul li a:hover{
-    color: #fcfffd;
-    text-decoration: underline;
-}
-
-header #menu ul #logo{
-    margin-right: 100px ;
-    margin-left: 100px ;
+header #menu ul li a {
+  text-decoration: none;
+  color: #bad7e9;
 }
 
 .perfil {
@@ -110,25 +105,23 @@ header #menu ul #logo{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 30%;
-  color:#054584;
+  color: #054584;
   vertical-align: middle;
   horizontal-align: middle;
-
-
 }
 
-p button{
-    color: #bad7e9;
-    background-color: #054584;
-    font-family: cursive;
-    font-size: 100%;
-    padding: 5% 25% ;
-    margin: 0% 15%;
-    margin-top: 5%
+p button {
+  color: #bad7e9;
+  background-color: #054584;
+  font-family: cursive;
+  font-size: 100%;
+  padding: 5% 25%;
+  margin: 0% 15%;
+  margin-top: 5%
 }
 
-p button:hover{
-    color: #054584;
-    background-color: #f96900;
-    text-decoration: underline;
+p button:hover {
+  color: #054584;
+  background-color: #f96900;
+  text-decoration: underline;
 }
